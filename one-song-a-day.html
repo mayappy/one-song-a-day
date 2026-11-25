@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>one song a day.</title>
+  <link rel="stylesheet" href="one-song-a-day.css">
+</head>
+<body>
+  <header>
+    <p class="subtitle">366 DAYS, 366 SONGS</p>
+    <h1>one-song-a-day.</h1>
+    <p class="description">今日という日に、今日の一曲を。</p>
+  </header>
+
+  <main>
+    <section class="song-card">
+      <p class="section-title">TODAY'S SONG</p>
+      <p id="display-date" class="date"></p>
+
+      <div class="music-icon">♬</div>
+
+      <p id="song-title" class="song-title">
+        曲名
+      </p>
+      <p id="artist" class="artist">
+        アーティスト名
+      </p>
+      <span id="genre" class="genre">GENRE</span>
+
+      <a href="#" id="music-link" target="_blank">
+        曲を聴く↗
+      </a>
+    </section>
+    <section class="serch-section">
+      <h2>Find a song</h2>
+      <p>日付を選んで、その日の曲を検索してみよう。</p>
+
+      <input type="date" id="date-picker">
+
+      <button id="search-button">この日の曲を見る</button>
+      <button id="today-button" class="sub-button">
+        今日の曲に戻る
+      </button>
+    </section>
+  </main>
+
+  <footer>
+    <p>one-song-a-day.</p>
+  </footer>
+
+  <script src="one-song-a-day.js"></script>
+</body>
+</html>
